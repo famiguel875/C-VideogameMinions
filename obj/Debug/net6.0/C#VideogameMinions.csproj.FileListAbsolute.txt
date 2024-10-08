@@ -98,3 +98,4 @@ C:\C#VideogameMinions\obj\Debug\net6.0\refint\C#VideogameMinions.dll
 C:\C#VideogameMinions\obj\Debug\net6.0\C#VideogameMinions.pdb
 C:\C#VideogameMinions\obj\Debug\net6.0\C#VideogameMinions.genruntimeconfig.cache
 C:\C#VideogameMinions\obj\Debug\net6.0\ref\C#VideogameMinions.dll
+C:\C#VideogameMinions\obj\Debug\net6.0\C#VideogameMinions.sourcelink.json

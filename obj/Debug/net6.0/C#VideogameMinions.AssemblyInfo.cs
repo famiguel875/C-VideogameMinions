@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C#VideogameMinions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5a1ff7c10d074b251d9c32aaf5c5a838a59c563")]
 [assembly: System.Reflection.AssemblyProductAttribute("C#VideogameMinions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C#VideogameMinions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -105,14 +105,14 @@ public class PartyMemberTests
         // Assert
         Assert.Equal(30, hero.BaseDamage); // Sword adds 10
         Assert.Equal(10, hero.BaseArmor);  // Shield adds 5
-    }
+    } 
 
     [Fact]
     public void PartyMember_ApplyItems_SummonsMinions()
     {
         // Arrange
         PartyMember hero = new PartyMember("Hero", 100, 20, 5);
-        IItem magicalSword = new SwordMagical(MinionCreator.CreateSpectralWarrior);
+        IItem magicalSword = new SwordMagical(MinionCreator.CreateIceElemental);
 
         hero.AddItem(magicalSword);
 
@@ -120,7 +120,7 @@ public class PartyMemberTests
         hero.ApplyItems();
 
         // Assert
-        Assert.Contains("Spectral Warrior", hero.ToString());
+        Assert.Contains("Ice Elemental", hero.ToString());
     }
 
     [Fact]
@@ -166,13 +166,13 @@ public class WeaponTests
     {
         // Arrange
         var partyMember = new PartyMember("Test PartyMember", 100, 20, 5);
-        var magicalSword = new SwordMagical(MinionCreator.CreateSpectralWarrior);
+        var magicalSword = new SwordMagical(MinionCreator.CreateIceElemental);
 
         // Act
         magicalSword.Apply(partyMember);
 
         // Assert
-        Assert.Contains("Spectral Warrior", partyMember.ToString());
+        Assert.Contains("Ice Elemental", partyMember.ToString());
     }
 }
 
